@@ -16,7 +16,7 @@ const Add = ({navigation}) => {
       onPress={()=>{
           //ex 1
           let item = {card_name:name, card_pic:pic};
-          fetch ("https://onlinecardappwebservice-09rt.onrender.com/addcard",
+          fetch ("https://onlinecardappwebservice-rtm0.onrender.com/addcard",
               {
                   method:"POST",
                   headers:{"Content-type":"application/json"},

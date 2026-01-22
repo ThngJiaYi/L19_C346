@@ -7,7 +7,7 @@ const Home = ({navigation}) => {
    const [myData, setMyData] = useState([]);
   
   //please set your allcards endpoint url here using your own web service url
-  const myurl = "https://onlinecardappwebservice-09rt.onrender.com/allcards"
+  const myurl = "https://onlinecardappwebservice-rtm0.onrender.com/allcards"
   
   useEffect(()=>{
   fetch(myurl)

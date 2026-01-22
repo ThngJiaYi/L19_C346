@@ -21,7 +21,7 @@ const Edit = ({navigation, route}) => {
                             {
                                 text: 'Yes', onPress: () => {
                                     fetch(
-                                        "https://onlinecardappwebservice-09rt.onrender.com/updatecard/" + route.params.id,
+                                        "https://onlinecardappwebservice-rtm0.onrender.com/updatecard/" + route.params.id,
                                         {
                                             method: "PUT",
                                             headers: {
@@ -56,7 +56,7 @@ const Edit = ({navigation, route}) => {
                             {
                                 text: 'Yes', onPress: () => {
                                     fetch(
-                                        "https://onlinecardappwebservice-09rt.onrender.com/deletecard/" + route.params.id,
+                                        "https://onlinecardappwebservice-rtm0.onrender.com/deletecard/" + route.params.id,
                                         {
                                             method: "DELETE",
                                         }
